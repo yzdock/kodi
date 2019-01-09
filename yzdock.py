@@ -24,8 +24,8 @@ addons_folder = xbmc.translatePath('special://home/addons')
 image = xbmc.translatePath(os.path.join(path, "icon.png"))
 
 plugin = Plugin()
-addon = xbmcaddon.Addon("plugin.video.tranhuyhoang.playlist")
-pluginrootpath = "plugin://plugin.video.tranhuyhoang.playlist"
+addon = xbmcaddon.Addon("plugin.video.YzDock")
+pluginrootpath = "plugin://plugin.video.YzDock"
 http = httplib2.Http(cache, disable_ssl_certificate_validation=True)
 query_url = "https://docs.google.com/spreadsheets/d/{sid}/gviz/tq?gid={gid}&headers=1&tq={tq}"
 sheet_headers = {
